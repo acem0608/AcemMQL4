@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property strict
 
-#include <Acem/QuickEdit/AcemQuickEditManagement.mqh>
+#include <Acem/Cmd/AcemQuickEditManagement.mqh>
 
 CAcemQuickEditManagement quickManagement;
 //+------------------------------------------------------------------+

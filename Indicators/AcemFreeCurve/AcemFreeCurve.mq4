@@ -6,7 +6,7 @@
 #property strict
 
 #include <Acem/Common/AcemUtility.mqh>
-#include <Acem/Draw/AcemDrawFreeCurve.mqh>
+#include <Acem/Cmd/AcemDrawFreeCurve.mqh>
 
 #define INDICATOR_SHORT_NAME "AcemFreeCurve"
 
