@@ -52,7 +52,7 @@ int OnCalculate(const int rates_total,
                 const int& spread[])
 {
     //---
-    exportBidAsk.writeData();
+    exportBidAsk.OnCalculate(rates_total, prev_calculated, time, open, high, low, close, tick_volume, volume, spread);
     //--- return value of prev_calculated for next call
     return (rates_total);
 }
@@ -65,5 +65,6 @@ void OnChartEvent(const int id,
                   const string& sparam)
 {
     //---
+    exportBidAsk.OnChartEvent(id, lparam, dparam, sparam);
 }
 //+------------------------------------------------------------------+
